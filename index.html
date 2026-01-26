@@ -2,57 +2,120 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Mi Página Web - GitHub Pages</title>
+    <title>Hola Mundo | GitHub Pages</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f6f8;
-            text-align: center;
-            padding: 40px;
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, sans-serif;
+            background-color: #f2f4f8;
+            color: #333;
         }
+
+        /* Header */
         header {
-            background-color: #24292e;
+            background: linear-gradient(135deg, #4f46e5, #6366f1);
             color: white;
-            padding: 20px;
-            border-radius: 8px;
+            padding: 60px 20px;
+            text-align: center;
         }
+
+        header h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+
+        /* Main content */
+        main {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
         section {
-            margin-top: 30px;
             background: white;
-            padding: 20px;
-            border-radius: 8px;
+            padding: 30px;
+            margin-bottom: 30px;
+            border-radius: 14px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.08);
         }
+
+        section h2 {
+            margin-top: 0;
+            color: #4f46e5;
+        }
+
+        section p {
+            line-height: 1.6;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul li {
+            padding: 10px 0;
+            border-bottom: 1px solid #eee;
+        }
+
+        ul li:last-child {
+            border-bottom: none;
+        }
+
+        /* Footer */
         footer {
-            margin-top: 40px;
-            color: #555;
+            background-color: #111827;
+            color: #e5e7eb;
+            text-align: center;
+            padding: 25px 10px;
+            font-size: 0.95em;
+        }
+
+        footer span {
+            font-weight: 600;
+            letter-spacing: 0.5px;
         }
     </style>
 </head>
 <body>
 
-    <header>
-        <h1>👋 Hola Mundo</h1>
-        <p>Mi primera página web desplegada con GitHub Pages</p>
-    </header>
+<header>
+    <h1>Hola Mundo 👋</h1>
+    <p>Página web desplegada automáticamente con GitHub Pages</p>
+</header>
 
+<main>
     <section>
         <h2>Sobre esta página</h2>
         <p>
-            Esta página fue creada como parte de una práctica de GitHub.
-            Se despliega automáticamente usando <strong>GitHub Pages</strong>.
+            Esta página web fue creada como parte de una práctica académica.
+            El contenido se publica automáticamente desde un repositorio
+            de GitHub utilizando <strong>GitHub Pages</strong>.
         </p>
-
-        <h3>Tecnologías usadas</h3>
-        <ul style="list-style: none; padding: 0;">
-            <li>✅ HTML</li>
-            <li>✅ CSS</li>
-            <li>✅ GitHub Pages</li>
-        </ul>
     </section>
 
-    <footer>
-        <p>© 2026 - Práctica GitHub</p>
-    </footer>
+    <section>
+        <h2>Características</h2>
+        <ul>
+            <li>✅ Página web estática</li>
+            <li>✅ Despliegue automático</li>
+            <li>✅ Repositorio público</li>
+            <li>✅ Uso de HTML y CSS</li>
+        </ul>
+    </section>
+</main>
+
+<footer>
+    <span>Dudley Peter B | 2019-8728</span>
+</footer>
 
 </body>
 </html>
+
